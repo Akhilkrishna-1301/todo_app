@@ -47,8 +47,8 @@
                         <h5 class="card-title">{{i.name}}</h5>
                         <p><b>{{i.priority}}</b></p>
                         <p><b>{{i.date}}</b></p>
-                        <a class="btn btn-primary" href="{% url 'update' i.id %}">update</a>
-                        <a class="btn btn-danger" href="{% url 'delete' i.id %}">Delete</a>
+                        <a class="btn btn-primary" href="{% url 'cbvupdate' i.id %}">update</a>
+                        <a class="btn btn-danger" href="{% url 'cbvdelete' i.id %}">Delete</a>
                     </div>
                 </div>
                 <br>
